@@ -1,0 +1,552 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+i {
+    color: #009688;
+}
+
+i.icon-head {
+    font-size: 1.8em;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background: #f1f1f1;
+}
+
+.address {
+    list-style-type: none;
+    gap: 20px;
+    line-height: 40px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: black;
+    margin: 20px 0px;
+}
+
+.address li {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.address li i {
+    color: lightseagreen;
+
+}
+
+#icons {
+    opacity: 1;
+}
+
+main {
+    padding: 10px 10px;
+    display: flex;
+    gap: 10px;
+}
+
+aside {
+    height: max-content;
+    width: 30%;
+    background: rgba(255, 255, 255, .3);
+    box-shadow: 22px 22px 80px rgba(0, 0, 0, .2);
+    padding: 10px;
+}
+
+.HeroImg {
+    width: 100%;
+    height: min-content;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.HeroImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    border: none;
+    border-bottom: 2px solid lightseagreen;
+    object-fit: cover;
+    object-position: center;
+}
+
+.HeroImg::after {
+    content: "Tushar Dass";
+    position: absolute;
+    height: 15%;
+    width: 100%;
+    background: linear-gradient(to right, #009688, #00bcd4);
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+
+.HeroImg:hover img {
+    transform: scale(1.05);
+    transition: all 0.6s ease-in-out;
+}
+
+.fa-fan {
+    color: lightseagreen;
+    font-size: 20px;
+    margin: 20px 10px;
+    display: inline;
+}
+
+.skills {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+.grey {
+    height: 20px;
+    width: 100%;
+    background-color: rgb(189, 185, 185);
+    border-radius: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.inner {
+    height: 20px;
+    background-color: #009688;
+    position: absolute;
+    z-index: 99;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+}
+
+.main-heading {
+    display: inline;
+}
+
+.heading {
+    position: relative;
+    left: 10px;
+    font-size: 15px;
+}
+ .htm-inner {
+        width: 95%;
+    }
+.css-inner {
+    width: 85%;
+}
+
+.js-inner {
+    width: 75%;
+}
+
+.hindi-inner {
+    width: 95%;
+}
+
+.speech {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px
+}
+
+fa-earth-americas {
+    color: lightseagreen;
+    fill: lightseagreen;
+
+}
+
+.spee {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 8px;
+}
+
+.fa-earth-europe {
+    color: #009688;
+    font-size: 1.2em;
+    margin-left: 8px;
+}
+
+.eng-inner {
+    width: 65%;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.main-content {
+    width: 70%;
+    height: min-content;
+    background: rgba(255, 255, 255, .3);
+    box-shadow: 22px 22px 80px 4px rgba(0, 0, 0, .2);
+    padding: 45px 45px;
+}
+
+.about-me {
+    font-size: 1.1em;
+    font-weight: 400;
+    opacity: .9;
+    margin: 10px 10px;
+    text-align: justify;
+}
+
+.about {
+    font-size: 2em;
+    letter-spacing: 6px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.edu {
+    margin: 20px 0px;
+    font-size: 2em;
+    position: relative;
+    top: 15px;
+    display: inline-block;
+
+}
+
+#icon {
+    font-size: 1.2em;
+    opacity: 1;
+}
+
+#educate {
+    font: 1.2em;
+}
+
+.education-about {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    margin-left: 20px;
+    font-size: 1.1em;
+
+}
+
+.social {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.social li {
+    margin-right: 10px;
+    font-size: 1em;
+    color: #009688;
+    margin: 1px;
+    display: flex;
+    margin: 10px 10px;
+}
+
+.social a {
+    text-decoration: none;
+    color: rgb(196, 192, 192);
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.socialLinks::after {
+    content: "";
+    height: 15%;
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    bottom: -5%;
+    left: -100%;
+}
+
+.socialLinks:hover {
+    color: white;
+    text-decoration: none;
+    transition: all 0.8s ease;
+}
+
+a:hover i {
+    color: #fff;
+}
+
+a:hover::after {
+    left: 0;
+    transition: .4s all ease-in-out;
+}
+
+footer {
+    height: min-content;
+    width: 100%;
+    background: #009688;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 20px 20px;
+    color: #fff;
+    margin: 10px 0px;
+    flex-direction: column;
+    box-shadow: 22px 22px 45px 2px rgba(0, 0, 0, .6);
+}
+
+.icon {
+    color: rgb(217, 214, 214);
+}
+
+.copyright {
+    font-size: 1em;
+    opacity: .7;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fa-briefcase {
+    margin-right: 8px;
+}
+
+.portfolio {
+    color: white;
+    margin: 10px 0px;
+}
+
+.portfolio a {
+    text-decoration: underline;
+
+}
+
+.intern-heading {
+    font-size: 1.5em;
+    margin: 10px 0px;
+    font-weight: 500;
+    opacity: .6;
+}
+
+.m-join {
+    font-size: 1.2em;
+    font-weight: 400;
+    opacity: .8;
+    margin-left: 10px;
+}
+
+.edu-heading {
+    margin-left: 10px;
+    letter-spacing: 4px;
+    opacity: .7;
+}
+
+.aside-heading-section {
+    font-size: 1.5em;
+    margin: 10px 0px;
+    font-weight: 600;
+    opacity: .6;
+}
+
+.intern-heading {
+    margin-left: 10px;
+}
+
+@media(min-width:200px) and (max-width:768px) {
+    .skills {
+        gap: 20px;
+        margin: 20px 0px;
+        margin-bottom: 20px;
+    }
+
+    .spee {
+        margin-top: 20px;
+    }
+
+    .speech {
+        gap: 20px;
+        margin: 10px 0px;
+    }
+
+    main {
+        flex-direction: column;
+        padding: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden;
+    }
+
+    aside,
+    .main-content {
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* .grey {
+        width: 98% !important;
+    }
+
+    .htm-inner {
+
+        width: 85%;
+    }
+
+    .css-inner {
+        width: 75%;
+    }
+
+    .js-inner {
+
+        width: 65%;
+    }
+
+    .eng-inner {
+
+        width: 65%
+    }
+
+    .hindi-inner {
+        width: 85%;
+    } */
+
+    .name {
+        left: 100px;
+        font-size: 1.5em;
+        top: -75px;
+    }
+
+    .name-bg {
+        top: -40px;
+    }
+
+    footer {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0px;
+        height: max-content;
+        text-align: justify;
+    }
+
+    .social {
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .social li {
+        margin: 5px 0;
+    }
+
+    .aside-tex {
+        margin: 10px 0px;
+    }
+
+    .address {
+        margin: 40px 0px;
+    }
+
+    hr {
+        margin: 20px 0px;
+    }
+
+    .main-content {
+        margin: 20px 0px;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        height: max-content;
+    }
+
+    .about-me {
+        font-size: 1.2em;
+    }
+
+    .edu-heading {
+        margin-left: 10px;
+        letter-spacing: 4px;
+        opacity: .7;
+        font-size: 1.4em;
+    }
+}
+
+.divider {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    animation: move 2s ease-in-out infinite;
+    opacity: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+        background-color: #009688;
+        border: 1px solid #009688;
+    }
+
+    25% {
+        transform: translateX(20px);
+        opacity: .5;
+        background-color: #00bcd4;
+        border: 1px solid #00bcd4;
+
+    }
+
+    50% {
+        transform: translateX(0);
+        opacity: 1;
+        background-color: #009688;
+        border: 1px solid #009688;
+    }
+
+    75% {
+        transform: translateX(-20px);
+        opacity: .5;
+        background-color: #00bcd4;
+        border: 1px solid #00bcd4;
+
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+        background-color: #009688;
+        border: 1px solid #009688;
+    }
+}
+
+@media (min-width:769px) and (max-width:1023px) {
+    
+
+   
+
+}
